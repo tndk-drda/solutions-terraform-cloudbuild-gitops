@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "-tfstate"
+    bucket = "tdk-tnx-dataplatform-bronze-tfstate"
     prefix = "env/prod"
   }
 }
